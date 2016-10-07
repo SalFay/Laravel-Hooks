@@ -1,0 +1,21 @@
+{
+    "name": "salfay/laravel-hooks",
+    "description": "Action and Filter hooks for Laravel Similar to Wordpress",
+    "type": "library",
+    "license": "GPL-v3",
+    "authors": [
+        {
+            "name": "Fayaz K",
+            "email": "allshore.php44@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SalFay\\LaravelHooks\\": "src/"
+        }
+    }
+}
